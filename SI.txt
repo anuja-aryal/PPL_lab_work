@@ -1,0 +1,20 @@
+!------------------------------------------------------------------------------
+! Pokhara University
+! Nepal College of Information Technology
+! Department of Software Engineering
+!
+! Principles of Programming Language
+!
+! Author: Anuja Aryal(anuja.171704@ncit.edu.np)
+!-------------------------------------------------------------------------------
+
+
+ PROGRAM simpleInt
+     IMPLICIT NONE
+     REAL :: p,t,r
+     PRINT *, 'Please enter principal, rate and time'
+     READ *, p,t,r
+     PRINT *, 'Required Simple Interest is:  ', (p*t*r)/100
+ END PROGRAM simpleInt
+    
+     
